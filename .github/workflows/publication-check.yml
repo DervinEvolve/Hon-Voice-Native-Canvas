@@ -1,0 +1,48 @@
+name: Canvas build and security regressions
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main, infinite-scene-agents]
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: canvas-check-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  canvas:
+    name: Canvas build and security regressions
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+          lfs: false
+          submodules: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Install the exact lockfile without lifecycle scripts
+        run: npm ci --ignore-scripts --legacy-peer-deps --no-audit --no-fund
+      - name: Security regressions
+        run: node --test tests/*.test.mjs
+      - name: Check routing helper and gateway bundle
+        run: |
+          node --input-type=module -e 'import { next } from "@vercel/functions"; if (next().headers.get("x-middleware-next") !== "1") process.exit(1);'
+          npx --no-install esbuild proxy.js --bundle --platform=node --format=esm --outfile=/tmp/hon-proxy-check.mjs
+      - name: Database owner and atomic budget regressions
+        run: python3 tests/run-database-security.py
+      - name: SHARP worker URL, size and pinning regressions
+        run: |
+          python3 -m venv /tmp/hon-worker-venv
+          /tmp/hon-worker-venv/bin/pip install --quiet fastapi==0.115.14
+          /tmp/hon-worker-venv/bin/python -I -m unittest discover -s tests -p 'test_sharp_worker_security.py'
+      - name: Build the canvas
+        run: npm run build

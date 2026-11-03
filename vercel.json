@@ -1,0 +1,248 @@
+{
+  "version": 2,
+  "bunVersion": "1.x",
+  "installCommand": "npm ci --ignore-scripts --legacy-peer-deps --no-audit --progress=false",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "functions": {
+    "api/game/generate.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    },
+    "api/game/repair.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    },
+    "api/game/generate-template.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    },
+    "api/game/generate-stream.js": {
+      "memory": 1024,
+      "maxDuration": 300
+    },
+    "api/game/edit-stream.js": {
+      "memory": 1024,
+      "maxDuration": 120
+    },
+    "api/game/edit.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    },
+    "api/higgsfield/text-to-image.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    },
+    "api/higgsfield/image-to-video.js": {
+      "memory": 1024,
+      "maxDuration": 300
+    },
+    "api/higgsfield/status.js": {
+      "memory": 512,
+      "maxDuration": 30
+    },
+    "api/higgsfield/motions.js": {
+      "memory": 512,
+      "maxDuration": 30
+    },
+    "api/higgsfield/speak.js": {
+      "memory": 1024,
+      "maxDuration": 300
+    },
+    "api/flux/edit.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    },
+    "api/flux/krea.js": {
+      "memory": 1024,
+      "maxDuration": 120
+    },
+    "api/ideogram/generate.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    },
+    "api/imagen4/generate.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    },
+    "api/hunyuan3d/generate.js": {
+      "memory": 1024,
+      "maxDuration": 240
+    },
+    "api/runway/image-to-video.js": {
+      "memory": 1024,
+      "maxDuration": 300
+    },
+    "api/veo3/image-to-video.js": {
+      "memory": 1024,
+      "maxDuration": 120
+    },
+    "api/fal/video-understanding.js": {
+      "memory": 1024,
+      "maxDuration": 300
+    },
+    "api/luma/video-generation.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/luma/text-to-video.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    },
+    "api/pika/text-to-video.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    },
+    "api/cloudinary-upload.js": {
+      "memory": 512,
+      "maxDuration": 30
+    },
+    "api/download-image.js": {
+      "memory": 512,
+      "maxDuration": 30
+    },
+    "api/gpt/text-to-image.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/gpt/edit-image.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/gemini/flash-edit.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    },
+    "api/flux/generate.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/flux/lora.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/luma/generate.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/luma/photon.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/recraft/generate.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/easel/generate.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/bria/generate.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/kling/text-to-video.js": {
+      "memory": 1024,
+      "maxDuration": 90
+    },
+    "api/luma/photon-flash.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/recraft/upscale.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/video/prompt-optimizer.js": {
+      "memory": 512,
+      "maxDuration": 30
+    },
+    "api/fal/moondream.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/fal/seedream-generate.js": {
+      "memory": 1024,
+      "maxDuration": 120
+    },
+    "api/fal/seedream-edit.js": {
+      "memory": 1024,
+      "maxDuration": 120
+    },
+    "api/fal/seedream-status.js": {
+      "memory": 512,
+      "maxDuration": 60
+    },
+    "api/fal/nano-banana-edit.js": {
+      "memory": 1024,
+      "maxDuration": 180
+    },
+    "api/fal/meshy-text-to-3d.js": {
+      "memory": 1024,
+      "maxDuration": 120
+    },
+    "api/fal/meshy-status.js": {
+      "memory": 512,
+      "maxDuration": 30
+    },
+    "api/fal/meshy-result.js": {
+      "memory": 512,
+      "maxDuration": 30
+    },
+    "api/splat/process-lod.js": {
+      "memory": 3008,
+      "maxDuration": 300
+    },
+    "api/notion/mcp-action.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
+  "proxy": {
+    "entrypoint": "proxy.js",
+    "matcher": [
+      "/api/:path*"
+    ]
+  },
+  "rewrites": [
+    {
+      "source": "/((?!api(?:/|$)).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'none'; object-src 'none'; base-uri 'self'"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), geolocation=(), payment=(), usb=(), microphone=(self)"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains"
+        }
+      ]
+    }
+  ],
+  "git": {
+    "deploymentEnabled": false
+  }
+}

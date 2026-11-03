@@ -1,0 +1,208 @@
+/**
+ * Canvas Animations - CSS animations for the Creator canvas
+ * 
+ * Mode transitions, panel effects, and alignment guides.
+ */
+
+/* Mode transition animations */
+@keyframes mode-fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes mode-fade-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+}
+
+/* Panel appear animation */
+@keyframes panel-appear {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+/* Panel disappear animation */
+@keyframes panel-disappear {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+}
+
+/* Panel snap animation (when snapping to alignment guide) */
+@keyframes panel-snap {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.02);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+/* Alignment guide fade-in */
+@keyframes guide-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Selection ring pulse */
+@keyframes selection-pulse {
+  0%, 100% {
+    box-shadow: 0 0 25px 8px rgba(139, 92, 246, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 35px 12px rgba(139, 92, 246, 0.7);
+  }
+}
+
+/* Quick edit menu appear */
+@keyframes quick-edit-appear {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+/* Utility classes */
+.animate-mode-fade-in {
+  animation: mode-fade-in 0.2s ease-out forwards;
+}
+
+.animate-mode-fade-out {
+  animation: mode-fade-out 0.2s ease-out forwards;
+}
+
+.animate-panel-appear {
+  animation: panel-appear 0.2s ease-out forwards;
+}
+
+.animate-panel-disappear {
+  animation: panel-disappear 0.15s ease-out forwards;
+}
+
+.animate-panel-snap {
+  animation: panel-snap 0.15s ease-out;
+}
+
+.animate-guide-fade-in {
+  animation: guide-fade-in 0.1s ease-out forwards;
+}
+
+.animate-selection-pulse {
+  animation: selection-pulse 1.5s ease-in-out infinite;
+}
+
+.animate-quick-edit-appear {
+  animation: quick-edit-appear 0.15s ease-out forwards;
+}
+
+/* Alignment guide styles */
+.alignment-guide {
+  position: absolute;
+  background: rgba(139, 92, 246, 0.6);
+  z-index: 50;
+  pointer-events: none;
+  animation: guide-fade-in 0.1s ease-out;
+}
+
+.alignment-guide-x {
+  width: 1px;
+  top: -9999px;
+  bottom: -9999px;
+}
+
+.alignment-guide-y {
+  height: 1px;
+  left: -9999px;
+  right: -9999px;
+}
+
+/* Canvas container transitions */
+.canvas-container {
+  transition: transform 0.1s ease-out;
+}
+
+.canvas-container.dragging {
+  transition: none;
+}
+
+/* Board mode panel hover effects */
+.board-panel {
+  transition: box-shadow 0.15s ease-out, outline 0.15s ease-out;
+}
+
+.board-panel:hover:not([data-selected="true"]) {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Quick action buttons */
+.quick-action-btn {
+  transition: transform 0.1s ease-out, background-color 0.1s ease-out;
+}
+
+.quick-action-btn:hover {
+  transform: scale(1.1);
+}
+
+.quick-action-btn:active {
+  transform: scale(0.95);
+}
+
+/* Resize handle */
+.resize-handle {
+  transition: background-color 0.1s ease-out, transform 0.1s ease-out;
+}
+
+.resize-handle:hover {
+  background-color: rgba(139, 92, 246, 0.9);
+  transform: scale(1.1);
+}
+
+/* Loading shimmer */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer {
+  animation: shimmer 1.5s infinite;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+}
+

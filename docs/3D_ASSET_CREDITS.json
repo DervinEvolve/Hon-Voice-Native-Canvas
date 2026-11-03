@@ -1,0 +1,972 @@
+[
+  {
+    "path": "public/assets/3d/animations/AnimationLibrary_Godot.glb",
+    "asset": {
+      "generator": "Khronos glTF Blender I/O v4.3.47",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [
+      "A_Tpose",
+      "BackFlip",
+      "Celebration",
+      "Climb_Down_Loop",
+      "Climb_Enter",
+      "Climb_Exit",
+      "Climb_Idle_Loop",
+      "Climb_Left_Loop",
+      "Climb_Left_RM_Loop",
+      "Climb_Right_Loop",
+      "Climb_Right_RM_Loop",
+      "Climb_Up_Loop",
+      "ClimbLedge",
+      "ClimbLedge_RM",
+      "Counter_Angry",
+      "Counter_Enter",
+      "Counter_Exit",
+      "Counter_Give",
+      "Counter_Idle_Loop",
+      "Counter_Show"
+    ],
+    "node_names": [
+      "DEF-head",
+      "DEF-neck",
+      "DEF-f_index.03.L",
+      "DEF-f_index.02.L",
+      "DEF-f_index.01.L",
+      "DEF-f_middle.03.L",
+      "DEF-f_middle.02.L",
+      "DEF-f_middle.01.L",
+      "DEF-f_pinky.03.L",
+      "DEF-f_pinky.02.L"
+    ]
+  },
+  {
+    "path": "public/assets/3d/characters/creatures/bird.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [
+      "metarig|Fly"
+    ],
+    "node_names": [
+      "RootNode",
+      "Hawk",
+      "metarig",
+      "spine.003",
+      "spine.002",
+      "spine.001",
+      "spine",
+      "t_feather.R",
+      "t_feather.L",
+      "spine.004"
+    ]
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/Dancing_NPC.glb",
+    "asset": {
+      "extras": {
+        "author": "sherif shawky (https://sketchfab.com/shawky.sherif1)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/jeje-high-quality-3d-character-fully-rigged-255699303c374d25aa2d9f3f560622a9",
+        "title": "JEJE High-Quality 3D Character, Fully Rigged."
+      },
+      "generator": "Sketchfab-16.64.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/Driver_character.glb",
+    "asset": {
+      "extras": {
+        "author": "DanlyVostok (https://sketchfab.com/1799danly)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/jumpsuit-low-poly-game-ready-striker14-da288adbddf949aa85962968732f0999",
+        "title": "Jumpsuit Low Poly Game Ready (Striker14)"
+      },
+      "generator": "Sketchfab-16.73.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/Elf_character.glb",
+    "asset": {
+      "extras": {
+        "author": "Cobalt Shep (https://sketchfab.com/CobaltShep)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/frangos-cycles-d92e6415dc594289b0b4eebcbd1b5cdf",
+        "title": "Frangos Cycles"
+      },
+      "generator": "Sketchfab-16.53.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/boy_NPC.glb",
+    "asset": {
+      "extras": {
+        "author": "BELAZ (https://sketchfab.com/asset_for_games)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/character-boy-1-fbx-f6c26ef822cb4744aa780c866e0565ca",
+        "title": "character boy #1 (FBX)"
+      },
+      "generator": "Sketchfab-15.38.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/cyberpunk_character.glb",
+    "asset": {
+      "extras": {
+        "author": "4d_Bob (https://sketchfab.com/3d_Bob)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/cyberpunk-character-019f4b3fd3c74ed0bc6c8dbe9cd50d51",
+        "title": "Cyberpunk character"
+      },
+      "generator": "Sketchfab-15.42.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/desert_soldier_character.glb",
+    "asset": {
+      "extras": {
+        "author": "tvanbreda (https://sketchfab.com/tvanbreda)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/desert-camo-soldier-945ef947a99b466db515c922e7dc59f4",
+        "title": "Desert Camo Soldier"
+      },
+      "generator": "Sketchfab-12.68.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/girl_NPC.glb",
+    "asset": {
+      "extras": {
+        "author": "BELAZ (https://sketchfab.com/asset_for_games)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/character-girl-4-fbx-16576e60c9fc4d97a75aa1144c35dc82",
+        "title": "character girl #4 (FBX)"
+      },
+      "generator": "Sketchfab-15.38.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/mage_character.glb",
+    "asset": {
+      "extras": {
+        "author": "Ferocious Industries (https://sketchfab.com/ferociousindustries.matthias)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/pbr-shadowkin-mage-rigged-7aab96637055455297d158584b1602cd",
+        "title": "PBR Shadowkin Mage (Rigged)"
+      },
+      "generator": "Sketchfab-15.37.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/ninja_NPC.glb",
+    "asset": {
+      "extras": {
+        "author": "saadasifattari (https://sketchfab.com/saadasifattari)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/ninja-character-rigged-3d-model-c7da1dc8294947ad82fc984765594572",
+        "title": "Ninja character rigged 3d model"
+      },
+      "generator": "Sketchfab-15.55.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/samurai_character.glb",
+    "asset": {
+      "extras": {
+        "author": "KhoaMinh (https://sketchfab.com/duongminhkhoa231)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/cyber-samurai-26ccafaddb2745ceb56ae5cfc65bfed5",
+        "title": "Cyber Samurai"
+      },
+      "generator": "Sketchfab-12.67.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/security_guard_NPC.glb",
+    "asset": {
+      "extras": {
+        "author": "Q.SARDOR (https://sketchfab.com/qsardor57913)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/security-guard-rigged-3d-model-1e3307732bbf4453b30f021bfec5bcaf",
+        "title": "Security Guard \u2013 Rigged 3D Model"
+      },
+      "generator": "Sketchfab-16.63.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/robots/robot_character.glb",
+    "asset": {
+      "extras": {
+        "author": "Rukh3D (https://sketchfab.com/rukh3d)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/robot-walk-cycle-with-jack-system-cd4578c1a5a04dfaa0a9914dae0430c9",
+        "title": "Robot Walk Cycle With Jack System"
+      },
+      "generator": "Sketchfab-16.56.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/characters/robots/robot_character_2.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "RootNode",
+      "v3.001",
+      "metarig.001",
+      "spine.002",
+      "spine.003",
+      "neck",
+      "head",
+      "head_end",
+      "upper_arm.L",
+      "forearm.L"
+    ]
+  },
+  {
+    "path": "public/assets/3d/environment/buildings/building.glb",
+    "asset": {
+      "extras": {
+        "author": "Daniel Aucar Felipe (https://sketchfab.com/danielaucar)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/city-corner-46efebbad49d49b2bbe2f0a9a638d9a1",
+        "title": "City Corner"
+      },
+      "generator": "Sketchfab-12.68.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/buildings/city_apartment_building.glb",
+    "asset": {
+      "extras": {
+        "author": "fredbear1211 (https://sketchfab.com/fredbear1211)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/city-apartment-building-7f77793a848643e4818280f17f1629a0",
+        "title": "City Apartment Building"
+      },
+      "generator": "Sketchfab-12.68.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/buildings/city_building.glb",
+    "asset": {
+      "extras": {
+        "author": "ModelMaker (https://sketchfab.com/mireubay1)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/game-ready-city-buildings-12ac98aa701548adbfa463157f05f6cf",
+        "title": "Game Ready City Buildings"
+      },
+      "generator": "Sketchfab-14.83.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/buildings/one_building.glb",
+    "asset": {
+      "extras": {
+        "author": "ModelMaker (https://sketchfab.com/mireubay1)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/game-ready-city-building-2bd7122c0f774cb48565187848154436",
+        "title": "Game Ready City Building"
+      },
+      "generator": "Sketchfab-14.82.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/props/Gun Case Weapons.glb",
+    "asset": {
+      "generator": "obj2gltf",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "GunCase_Cube",
+      "Glock19.001_Cube.004",
+      "AKM_model_model"
+    ]
+  },
+  {
+    "path": "public/assets/3d/environment/props/Gun Case.glb",
+    "asset": {
+      "generator": "obj2gltf",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "GunCase_Cube"
+    ]
+  },
+  {
+    "path": "public/assets/3d/environment/props/traffic_light.glb",
+    "asset": {
+      "extras": {
+        "author": "YourLocalJavaCarDealer (https://sketchfab.com/raiseriggytherunkey)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/gameready-traffic-light-for-cities-los-angeles-c4c16c89b71f4b1e9dd4f9f209fc97b0",
+        "title": "Gameready Traffic Light For Cities - Los Angeles"
+      },
+      "generator": "Sketchfab-16.74.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/scenes/city.glb",
+    "asset": {
+      "extras": {
+        "author": "ap-school (https://sketchfab.com/ap-school)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/full-gameready-city-buildings-19d5a4e5416c458982486e608a34930b",
+        "title": "full_gameready_city_buildings"
+      },
+      "generator": "Sketchfab-16.62.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/scenes/city_block.glb",
+    "asset": {
+      "extras": {
+        "author": "Neberkenezer (https://sketchfab.com/neberkenezer)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/ccity-building-set-1-a2d5c7bfcc2148fb8994864c43dfcc97",
+        "title": "CCity Building Set 1"
+      },
+      "generator": "Sketchfab-12.65.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/scenes/city_street.glb",
+    "asset": {
+      "extras": {
+        "author": "abhayexe (https://sketchfab.com/abhayexe)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/city-14941a37dcbf4efd9c1f1d713aa157de",
+        "title": "city"
+      },
+      "generator": "Sketchfab-16.59.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/scenes/postwar_city_FPS.glb",
+    "asset": {
+      "extras": {
+        "author": "Aur\u00e9lien Martel (https://sketchfab.com/aurelien_martel)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/postwar-city-exterior-scene-30b694d1a4074855a1116a15a0f75731",
+        "title": "Postwar City - Exterior Scene"
+      },
+      "generator": "Sketchfab-12.68.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/scenes/times_square_block.glb",
+    "asset": {
+      "extras": {
+        "author": "mortalityrexotable (https://sketchfab.com/mortalityrexotable)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/cyberpunk-city-3f24e5c5bf924f46b30d9a392afa9624",
+        "title": "Cyberpunk City"
+      },
+      "generator": "Sketchfab-16.68.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/terrain/desert_ruins.glb",
+    "asset": {
+      "extras": {
+        "author": "Inknot (https://sketchfab.com/Inknot)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/desert-ruins-08218d9991f04ba9a187df624c07acbe",
+        "title": "Desert Ruins"
+      },
+      "generator": "Sketchfab-16.62.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/terrain/mountainous_desert.glb",
+    "asset": {
+      "extras": {
+        "author": "\u0160imon Ustal (https://sketchfab.com/simonustal)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/mountainous-desert-e52a730cae444a80b85ff1ee5bd20879",
+        "title": "Mountainous Desert"
+      },
+      "generator": "Sketchfab-12.68.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/trees/Big_tree.glb",
+    "asset": {
+      "extras": {
+        "author": "EFX (https://sketchfab.com/evan4129)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/rigged-animated-cinematic-quality-tree-3-d35c71d2253c48aba9c45020c763d98e",
+        "title": "Rigged, Animated Cinematic Quality Tree 3"
+      },
+      "generator": "Sketchfab-16.56.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/trees/big_tree_2.glb",
+    "asset": {
+      "extras": {
+        "author": "EFX (https://sketchfab.com/evan4129)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/rigged-animated-cinematic-quality-tree-1-6da257702d6544dc9e9fb8f196662f67",
+        "title": "Rigged, Animated Cinematic Quality Tree 1"
+      },
+      "generator": "Sketchfab-16.56.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/trees/mango_tree.glb",
+    "asset": {
+      "extras": {
+        "author": "stealth86 (https://sketchfab.com/stealth86)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/mango-tree-4b186052228d43d8b3fbb63213677de8",
+        "title": "Mango Tree"
+      },
+      "generator": "Sketchfab-12.61.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/trees/one_tree.glb",
+    "asset": {
+      "extras": {
+        "author": "EFX (https://sketchfab.com/evan4129)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/rigged-animated-cinematic-quality-tree-4-544329bb254d4e45b5eae96ccc5bacf6",
+        "title": "Rigged, Animated Cinematic quality tree 4"
+      },
+      "generator": "Sketchfab-16.56.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/trees/three_trees.glb",
+    "asset": {
+      "extras": {
+        "author": "RandyGF (https://sketchfab.com/RandyGF)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/tree-animate-f0f9eb5e6c104bbb8e1f41c97019e6f2",
+        "title": "Tree Animate"
+      },
+      "generator": "Sketchfab-14.4.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/trees/tree_house.glb",
+    "asset": {
+      "extras": {
+        "author": "d-luX (https://sketchfab.com/dluX80)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/dlx-tree-housewith-tree-1cf11dd38e03427a843fb034d3f7eec9",
+        "title": "dlX - Tree House(with Tree)"
+      },
+      "generator": "Sketchfab-15.12.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/environment/vegetation/patch_of_grass.glb",
+    "asset": {
+      "extras": {
+        "author": "assetfactory (https://sketchfab.com/assetfactory)",
+        "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+        "source": "https://sketchfab.com/3d-models/patch-of-grass-74d524a8fb4246fe9aaac63bcd5dec58",
+        "title": "Patch of Grass"
+      },
+      "generator": "Sketchfab-16.33.0",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "Sketchfab_model",
+      "Grass.fbx",
+      "RootNode",
+      "Plane.002",
+      "Plane.002_grass_0",
+      "Plane.003",
+      "Plane.003_grass_0",
+      "Plane.004",
+      "Plane.004_grass_0",
+      "Plane.005"
+    ]
+  },
+  {
+    "path": "public/assets/3d/environment/vegetation/simple_grass_chunks.glb",
+    "asset": {
+      "extras": {
+        "author": "3dhdscan (https://sketchfab.com/3dhdscan)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/simple-grass-chunks-eb4f6dc9d4e3455ea3435385faf58b60",
+        "title": "Simple grass chunks"
+      },
+      "generator": "Sketchfab-12.67.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/fps/rigs/Fps Rig AKM.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [
+      "Armature|Idle",
+      "Armature|Reload",
+      "Armature|Shoot"
+    ],
+    "node_names": [
+      "RootNode",
+      "Armature",
+      "UpperArm.L",
+      "LowerArm.L",
+      "Hand.L",
+      "DoubleFingersBeginning",
+      "DoubleFingers.L",
+      "DoubleFingersTip.L",
+      "IndexBeginning.L",
+      "Index.L"
+    ]
+  },
+  {
+    "path": "public/assets/3d/fps/rigs/Fps Rig.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [
+      "Armature|Grip",
+      "Armature|Idle",
+      "Armature|Reload",
+      "Armature|Shoot"
+    ],
+    "node_names": [
+      "RootNode",
+      "Armature",
+      "UpperArm.L",
+      "LowerArm.L",
+      "Hand.L",
+      "DoubleFingersBeginning",
+      "DoubleFingers.L",
+      "DoubleFingersTip.L",
+      "DoubleFingersTip.L_end",
+      "IndexBeginning.L"
+    ]
+  },
+  {
+    "path": "public/assets/3d/fps/rigs/Rigged Fps Arms.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "RootNode",
+      "Armature",
+      "UpperArm.L",
+      "LowerArm.L",
+      "Hand.L",
+      "DoubleFingersBeginning",
+      "DoubleFingers.L",
+      "DoubleFingersTip.L",
+      "DoubleFingersTip.L_end",
+      "IndexBeginning.L"
+    ]
+  },
+  {
+    "path": "public/assets/3d/vehicles/aircraft/Plane.glb",
+    "asset": {
+      "extras": {
+        "author": "helijah (https://sketchfab.com/helijah)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/aeroprakt-a24-viking-f66637d4645c4348aac1340532a3db2a",
+        "title": "Aeroprakt A24 Viking"
+      },
+      "generator": "Sketchfab-16.21.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/aircraft/rigged_plane.glb",
+    "asset": {
+      "extras": {
+        "author": "AntijnvanderGun (https://sketchfab.com/AntijnvanderGun)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/stylized-ww1-plane-c4edeb0e410f46e8a4db320879f0a1db",
+        "title": "Stylized WW1 Plane"
+      },
+      "generator": "Sketchfab-12.68.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/cars/M939 Truck.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "RootNode",
+      "FrontWheelTwisterThing",
+      "Main",
+      "steering_wheel",
+      "back_left_wheel",
+      "middle_left_wheel",
+      "back_right_wheel",
+      "middle_right_wheel",
+      "front_left_wheel",
+      "front_right_wheel"
+    ]
+  },
+  {
+    "path": "public/assets/3d/vehicles/cars/car.glb",
+    "asset": {
+      "extras": {
+        "author": "TSB3DMODELS (https://sketchfab.com/TSB3DMODELS)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/carbon-motors-e7-civilian-cities-skylines-19a2ee7b29914c90bfc5e008aa6fded5",
+        "title": "CARBON MOTORS E7 CIVILIAN (Cities Skylines)"
+      },
+      "generator": "Sketchfab-12.68.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/cars/car_2.glb",
+    "asset": {
+      "extras": {
+        "author": "\uff4dononofu (https://sketchfab.com/guest248)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/130-d9485f5360224e9dbaafd24b2eec0f1a",
+        "title": "130"
+      },
+      "generator": "Sketchfab-12.66.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/cars/car_3.glb",
+    "asset": {
+      "extras": {
+        "author": "Martin Trafas (https://sketchfab.com/Bexxie)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/free-datsun-280z-0789ab2ece9442de94b3c41595e0ecbd",
+        "title": "[FREE] Datsun 280Z"
+      },
+      "generator": "Sketchfab-13.8.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/cars/rigged_sportscar.glb",
+    "asset": {
+      "extras": {
+        "author": "Godspeed (https://sketchfab.com/godspeedx14)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/rigged-car-mustang-1965-with-engine-3d-model-c2d4f0a6170d43f4a5a8303373ebb81a",
+        "title": "Rigged Car Mustang 1965 With Engine 3d model"
+      },
+      "generator": "Sketchfab-16.82.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/cars/rigged_sportscar_2.glb",
+    "asset": {
+      "extras": {
+        "author": "chiwei (https://sketchfab.com/chiwei2333)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/2015-porsche-911-carrera-s-mid-poly-4cef7c1e22ab40fd937507eae9a62cd8",
+        "title": "2015 - Porsche 911 Carrera S | Mid-Poly"
+      },
+      "generator": "Sketchfab-15.47.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/large_mothership.glb",
+    "asset": {
+      "extras": {
+        "author": "re1monsen (https://sketchfab.com/re1monsen)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/procedural-spaceship-eb8377b30bfd419583d935e6a7dba45a",
+        "title": "Procedural Spaceship"
+      },
+      "generator": "Sketchfab-12.68.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/large_spaceship.glb",
+    "asset": {
+      "extras": {
+        "author": "Lezalit (https://sketchfab.com/Lezalit)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/spaceship-cargo-e9faa887c3684271b67be00649e11dcf",
+        "title": "SPACESHIP - CARGO"
+      },
+      "generator": "Sketchfab-15.29.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/rigged_big_spaceship.glb",
+    "asset": {
+      "extras": {
+        "author": "Elin (https://sketchfab.com/ElinHohler)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/razor-crest-textured-and-animated-2fab090e8d064cc2ba1516987f9fc373",
+        "title": "Razor Crest (Textured and animated)"
+      },
+      "generator": "Sketchfab-12.67.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/small_spaceship.glb",
+    "asset": {
+      "extras": {
+        "author": "Star Conflict (https://sketchfab.com/star_conflict)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/ajf-12-dvergr-ecc16e103e79448faf9730f172a1d7e8",
+        "title": "AJF-12 \"Dvergr\""
+      },
+      "generator": "Sketchfab-12.67.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/small_spaceship_2.glb",
+    "asset": {
+      "extras": {
+        "author": "Jungle Jim (https://sketchfab.com/jungle_jim)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/spaceship-clst-500-eea823df8fd149a1a657f09da0fb71b8",
+        "title": "Spaceship CLST 500"
+      },
+      "generator": "Sketchfab-16.75.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/spaceship_with_interior.glb",
+    "asset": {
+      "extras": {
+        "author": "dannzjs (https://sketchfab.com/dannzjs)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/futuristic-spaceship-89b1b3f200c84d5a990ae95c0e302848",
+        "title": "Futuristic Spaceship"
+      },
+      "generator": "Sketchfab-15.71.0",
+      "version": "2.0"
+    },
+    "extras": null
+  },
+  {
+    "path": "public/assets/3d/weapons/ammo/7.62x39mm.glb",
+    "asset": {
+      "generator": "obj2gltf",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "7.62x39mm_Bullet_Cylinder.009"
+    ]
+  },
+  {
+    "path": "public/assets/3d/weapons/ammo/9x19mm.glb",
+    "asset": {
+      "generator": "obj2gltf",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "9x19mm_Glock19.002_Cube.001"
+    ]
+  },
+  {
+    "path": "public/assets/3d/weapons/explosives/C4.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "RootNode",
+      "C4"
+    ]
+  },
+  {
+    "path": "public/assets/3d/weapons/explosives/Grenade.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "RootNode",
+      "Grenade",
+      "Pin"
+    ]
+  },
+  {
+    "path": "public/assets/3d/weapons/firearms/AKM.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "RootNode",
+      "AKM_model",
+      "Armature",
+      "Root",
+      "Magazine",
+      "Trigger",
+      "Bolt"
+    ]
+  },
+  {
+    "path": "public/assets/3d/weapons/firearms/Mossberg 590A1.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "RootNode",
+      "Mossberg590A1",
+      "Armature",
+      "Root",
+      "Trigger",
+      "Trigger_end",
+      "FR",
+      "FR_end"
+    ]
+  },
+  {
+    "path": "public/assets/3d/weapons/firearms/Rigged Glock.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "RootNode",
+      "Glock19",
+      "Armature",
+      "Root",
+      "Slide",
+      "Trigger",
+      "Magazine",
+      "Barrel",
+      "SlideCatch",
+      "Glock19.001"
+    ]
+  },
+  {
+    "path": "public/assets/3d/weapons/melee/Combat Knife.glb",
+    "asset": {
+      "generator": "FBX2glTF v0.9.7",
+      "version": "2.0"
+    },
+    "extras": null,
+    "animation_names": [],
+    "node_names": [
+      "RootNode",
+      "CombatKnife"
+    ]
+  }
+]

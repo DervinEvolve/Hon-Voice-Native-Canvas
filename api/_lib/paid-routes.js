@@ -1,0 +1,42 @@
+// Routes that start a paid image, video, audio, 3D or splat generation job
+// with an operator-owned provider key. Status, result and polling routes are
+// not listed; they are covered by the general request budget only.
+export const PAID_GENERATION_ROUTES = new Set([
+  'anythingworld/animate',
+  'bria/generate',
+  'dreamina/text-to-image',
+  'easel/generate',
+  'elevenlabs/tts',
+  'fal/flux-2-pro', 'fal/imagineart', 'fal/longcat-image', 'fal/lucy-edit', 'fal/meshy-text-to-3d',
+  'fal/nano-banana', 'fal/nano-banana-edit', 'fal/ovis-image', 'fal/qwen-image', 'fal/qwen-image-edit',
+  'fal/seedream-edit', 'fal/seedream-generate', 'fal/seedream-v45', 'fal/z-image-turbo',
+  'flux/edit', 'flux/generate', 'flux/krea', 'flux/lora',
+  'gemini/flash-edit',
+  'gpt/edit-image', 'gpt/text-to-image',
+  'higgsfield/create-soul-id', 'higgsfield/image-to-video', 'higgsfield/speak', 'higgsfield/text-to-image',
+  'hunyuan-image/text-to-image',
+  'hunyuan3d/generate', 'hunyuan3d/submit',
+  'ideogram/generate',
+  'imagen4/generate',
+  'kling/image-to-video', 'kling/pro-image-to-video', 'kling/text-to-video',
+  'luma/generate', 'luma/modify', 'luma/photon', 'luma/photon-flash', 'luma/text-to-video', 'luma/video-generation',
+  'marey/image-to-video', 'marey/text-to-video',
+  'minimax/character-reference', 'minimax/image', 'minimax/text-to-video',
+  'pika/text-to-video',
+  'recraft/generate', 'recraft/upscale',
+  'reve/text-to-image',
+  'runway/generate-image', 'runway/image-to-video', 'runway/video-to-video',
+  'seedance/image-to-video', 'seedance/text-to-video',
+  'sfx/submit',
+  'sharp/submit',
+  'sora2/image-to-video', 'sora2/text-to-video',
+  'stt/submit',
+  'tts/hume',
+  'veo3/image-to-video', 'veo3/text-to-video',
+  'veo31/first-last-frame', 'veo31/image-to-video', 'veo31/reference-to-video', 'veo31/text-to-video',
+  'video/kling2', 'video/veo2',
+  'vidu/image-to-video', 'vidu/text-to-video',
+  'wan/image-to-video', 'wan/text-to-image', 'wan/text-to-video',
+].map(route => `/api/${route}`));
+
+export const DEFAULT_PAID_JOBS_PER_HOUR = 20;

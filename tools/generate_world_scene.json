@@ -1,0 +1,20 @@
+{
+  "name": "generate_world_scene",
+  "description": "Generates a 3D immersive Gaussian Splat world that the user can navigate. Use this when the user asks to 'create a world', 'turn this into a world', 'generate a 3D scene', or 'enter world mode'. The tool can take a text prompt description and/or use an existing image on the canvas as a reference (via target_element_id).",
+  "parameters_schema_for_dashboard": {
+    "type": "object",
+    "properties": {
+      "prompt": {
+        "type": "string",
+        "description": "A descriptive prompt for the world to be generated (e.g., 'a cyberpunk city street at night', 'a peaceful forest glade'). If the user references an image ('turn this into a world'), this prompt can be minimal or describe the desired atmosphere."
+      },
+      "target_element_id": {
+        "type": "string",
+        "description": "The ID of a specific panel or image element on the canvas to use as the visual source for the world generation. Use this if the user points to or selects an image and says 'turn THIS into a world'."
+      }
+    },
+    "required": [
+      "prompt"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+# Environment variables
+.env
+.env.local
+.env*.local
+.env.development
+.env.production
+
+# Ignore all .env files in the root, and specific backups/temps
+/.env*
+*.bak
+*.nowatch
+
+# Dependencies
+node_modules
+dist
+dist-ssr
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+._*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vercel
+
+# Optional: Ignore Cursor editor state
+# .cursor/
+
+# Temporary tsconfig files
+.tsconfig.stable.json
+
+# Keep local credentials and generated Python caches out of Git
+.cursor/mcp*.json
+.cursor/mcp_password/
+__pycache__/
+*.py[cod]
+!.env.example
+
+
+# Assets held in the private backup pending source/license verification.
+/public/assets/3d/animations/AnimationLibrary_Godot.glb
+/public/assets/3d/characters/creatures/bird.glb
+/public/assets/3d/characters/robots/robot_character_2.glb
+/public/assets/3d/environment/props/Gun Case Weapons.glb
+/public/assets/3d/environment/props/Gun Case.glb
+/public/assets/3d/environment/vegetation/patch_of_grass.glb
+/public/assets/3d/fps/rigs/Fps Rig AKM.glb
+/public/assets/3d/fps/rigs/Fps Rig.glb
+/public/assets/3d/fps/rigs/Rigged Fps Arms.glb
+/public/assets/3d/vehicles/cars/M939 Truck.glb
+/public/assets/3d/weapons/ammo/7.62x39mm.glb
+/public/assets/3d/weapons/ammo/9x19mm.glb
+/public/assets/3d/weapons/explosives/C4.glb
+/public/assets/3d/weapons/explosives/Grenade.glb
+/public/assets/3d/weapons/firearms/AKM.glb
+/public/assets/3d/weapons/firearms/Mossberg 590A1.glb
+/public/assets/3d/weapons/firearms/Rigged Glock.glb
+/public/assets/3d/weapons/melee/Combat Knife.glb
+
+# Historical patch exports are kept only in the private archive.
+/patches/
+
+# Optional credited model packs are installed locally from GitHub Releases.
+/public/assets/3d/**/*.glb

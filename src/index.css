@@ -1,0 +1,291 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hon Box Loader styles */
+.hon-box-loader {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  /* Base accent that variants override; used to shade faces */
+  --hon-color: #38bdf8;
+}
+
+.hon-box-loader .boxes {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  perspective: 900px;
+  transform: rotateX(58deg) rotateZ(45deg) translateZ(0);
+  transform-origin: 50% 50%;
+  will-change: transform;
+}
+
+.hon-box-loader .box {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  transform-style: preserve-3d;
+  box-shadow: 0 8px 18px rgba(8, 8, 12, 0.35);
+}
+
+.hon-box-loader .box-1 { transform: translate(100%, 0); animation: box1 1.6s infinite ease-in-out; }
+.hon-box-loader .box-2 { transform: translate(0, 100%); animation: box2 1.6s infinite ease-in-out 0.08s; }
+.hon-box-loader .box-3 { transform: translate(100%, 100%); animation: box3 1.6s infinite ease-in-out 0.16s; }
+.hon-box-loader .box-4 { transform: translate(200%, 0); animation: box4 1.6s infinite ease-in-out 0.24s; }
+
+.hon-box-loader .face {
+  position: absolute;
+  inset: 0;
+  border-radius: 7px;
+  backface-visibility: hidden;
+}
+/* Shade faces from the accent color to create a 3D look */
+.hon-box-loader .face-front  { background: color-mix(in srgb, var(--hon-color) 90%, white 10%); }
+.hon-box-loader .face-top    { background: color-mix(in srgb, var(--hon-color) 80%, white 20%); }
+.hon-box-loader .face-right  { background: color-mix(in srgb, var(--hon-color) 70%, black 30%); }
+.hon-box-loader .face-left  { background: color-mix(in srgb, var(--hon-color) 18%, #1a1a1a); }
+.hon-box-loader .face-bottom { background: color-mix(in srgb, var(--hon-color) 55%, black 45%); }
+.hon-box-loader .face-back   { background: color-mix(in srgb, var(--hon-color) 50%, black 50%); }
+
+.hon-box-loader .face-front  { transform: translateZ(9px); }
+.hon-box-loader .face-back   { transform: rotateY(180deg) translateZ(9px); }
+.hon-box-loader .face-right  { transform: rotateY(90deg) translateZ(9px); }
+.hon-box-loader .face-left   { transform: rotateY(-90deg) translateZ(9px); }
+.hon-box-loader .face-top    { transform: rotateX(90deg) translateZ(9px); }
+.hon-box-loader .face-bottom { transform: rotateX(-90deg) translateZ(9px); }
+
+.hon-box-loader--purple { --hon-color: #a855f7; filter: saturate(1.35) brightness(1.1) contrast(1.1) drop-shadow(0 0 28px rgba(168,85,247,0.75)); }
+.hon-box-loader--green  { --hon-color: #10b981; filter: saturate(1.35) brightness(1.1) contrast(1.1) drop-shadow(0 0 28px rgba(16,185,129,0.75)); }
+.hon-box-loader--pink   { --hon-color: #ec4899; filter: saturate(1.35) brightness(1.1) contrast(1.1) drop-shadow(0 0 28px rgba(236,72,153,0.75)); }
+.hon-box-loader--blue   { --hon-color: #38bdf8; filter: saturate(1.35) brightness(1.1) contrast(1.1) drop-shadow(0 0 28px rgba(56,189,248,0.75)); }
+
+@keyframes box1 {
+  0%, 50% { transform: translate(100%, 0); }
+  100% { transform: translate(200%, 0); }
+}
+
+@keyframes box2 {
+  0% { transform: translate(0, 100%); }
+  50% { transform: translate(0, 0); }
+  100% { transform: translate(100%, 0); }
+}
+
+@keyframes box3 {
+  0%, 50% { transform: translate(100%, 100%); }
+  100% { transform: translate(0, 100%); }
+}
+
+@keyframes box4 {
+  0% { transform: translate(200%, 0); }
+  50% { transform: translate(200%, 100%); }
+  100% { transform: translate(100%, 100%); }
+}
+
+.hon-box-loader--purple {
+  --hon-loader-face-start: #a855f7;
+  --hon-loader-face-end: #7c3aed;
+}
+
+.hon-box-loader--green {
+  --hon-loader-face-start: #34d399;
+  --hon-loader-face-end: #10b981;
+}
+
+.hon-box-loader--pink {
+  --hon-loader-face-start: #f472b6;
+  --hon-loader-face-end: #ec4899;
+}
+
+.hon-box-loader--blue {
+  --hon-loader-face-start: #38bdf8;
+  --hon-loader-face-end: #0ea5e9;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* Fix selector (was ::root) */
+:root {
+  --color-background: #ffffff;
+  --color-text: #1a202c;
+  --color-card-bg: #ffffff;
+  --color-border: #e2e8f0;
+  --color-input-bg: #f7fafc;
+  --color-sidebar-bg: #f8fafc;
+}
+
+.dark {
+  --color-background: #1a202c;
+  --color-text: #f7fafc;
+  --color-card-bg: #2d3748;
+  --color-border: #4a5568;
+  --color-input-bg: #2d3748;
+  --color-sidebar-bg: #171923;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+/* Privy glassmorphism overrides (docs: https://docs.privy.io/basics/react/advanced/configuring-appearance) */
+body {
+  --privy-border-radius-lg: 28px;
+  --privy-border-radius-full: 9999px;
+  /* Match tabs: bg-white/10 with layered tones for hover/active */
+  --privy-color-background: rgba(20, 20, 24, 0.55);
+  --privy-color-background-2: rgba(20, 20, 24, 0.62);
+  --privy-color-background-3: rgba(20, 20, 24, 0.70);
+  --privy-color-foreground: #ffffff;
+  --privy-color-foreground-2: rgba(255, 255, 255, 0.9);
+  --privy-color-foreground-3: rgba(255, 255, 255, 0.75);
+  --privy-color-foreground-accent: #ffffff;
+  --privy-color-accent: #872CFF; /* Hon purple */
+  --privy-color-accent-light: #a96bff;
+  --privy-color-accent-dark: #6f00ff;
+}
+
+.privy-modal, .privy-sheet, .privy-card {
+  /* Match tabs: backdrop-blur-md and subtle border */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background: rgba(20, 20, 24, 0.55) !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
+  box-shadow: 0 28px 56px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  border-radius: 28px;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-fade-in {
+  animation: modalFadeIn 0.2s ease-out forwards;
+}
+
+.modal-content {
+  animation: modalContentSlideIn 0.3s ease-out forwards;
+  transform-origin: center;
+}
+
+@keyframes modalContentSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Cursor animations */
+@keyframes ping {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping {
+  animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes typing {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+
+.animate-typing-1 {
+  animation: typing 1s infinite;
+}
+
+.animate-typing-2 {
+  animation: typing 1s infinite 0.2s;
+}
+
+.animate-typing-3 {
+  animation: typing 1s infinite 0.4s;
+}
+
+.cursor-animation {
+  transition: transform 0.1s ease-out, left 0.3s ease-out, top 0.3s ease-out;
+}
+
+/* Add these classes to your Tailwind config */
+
+/* Video autoplay optimizations - hide all controls and ensure smooth playback */
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+video::-webkit-media-controls-panel {
+  display: none !important;
+}
+
+video::-webkit-media-controls-play-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
+
+video::-moz-media-controls {
+  display: none !important;
+}
+
+video::-ms-media-controls {
+  display: none !important;
+}
+
+/* Ensure videos are optimized for mobile */
+video {
+  -webkit-playsinline: true; /* iOS */
+  transform: translateZ(0);
+}
+
+/* Force hardware acceleration for smooth video playback */
+.video-container,
+video {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/* Utility to hide scrollbars for overflow containers (used on tools bar) */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* 3D model viewer optimizations */
+model-viewer {
+  display: block;
+  width: 100%;
+  height: 100%;
+  --progress-bar-color: #872cff;
+  --progress-bar-height: 2px;
+}

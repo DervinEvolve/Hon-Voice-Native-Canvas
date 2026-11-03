@@ -1,0 +1,8 @@
+{
+  "repository": "playcanvas/engine",
+  "reviewed_ref": "cdea81fc3b8f2072797713d9e24b2c188ef950e4",
+  "license_blob": "7f478db6d47a259cd70f74b1e69d8ce407fd0912",
+  "license_sha256": "42fa51ddd556be151a29f381fb97ee975825dcc454e805ea3ea9c079cca04d34",
+  "adapted_file": "src/lib/playcanvas/gsplat-reveal-radial.ts",
+  "source_path": "scripts/esm/gsplat/reveal-radial.mjs"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "find_similar_panels",
+  "description": "Finds visually similar panels to a target panel using SAM3 image embeddings. Use this when the user asks to 'find panels similar to this one', 'show me similar panels', 'find panels like panel-1', or wants to see visually related content. Returns panels with similarity scores.",
+  "parameters_schema_for_dashboard": {
+    "type": "object",
+    "properties": {
+      "target_element_id": {
+        "type": "string",
+        "description": "The semantic ID (e.g., 'panel-1') or direct panel ID of the target panel to find similar panels for. If not provided, uses the currently selected panel."
+      },
+      "threshold": {
+        "type": "number",
+        "description": "Minimum similarity threshold (0.0-1.0). Higher values return more similar panels only. Default: 0.7",
+        "default": 0.7,
+        "minimum": 0.0,
+        "maximum": 1.0
+      },
+      "limit": {
+        "type": "integer",
+        "description": "Maximum number of similar panels to return. Default: 10",
+        "default": 10,
+        "minimum": 1,
+        "maximum": 50
+      }
+    },
+    "required": []
+  }
+}
+

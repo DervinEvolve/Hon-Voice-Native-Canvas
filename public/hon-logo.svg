@@ -1,0 +1,26 @@
+<svg viewBox="0 0 80 24" xmlns="http://www.\\.org/2000/svg">
+  <text x="4" y="20" fill="#FFFFFF" fontSize="32" fontWeight="bold">H</text>
+  <g transform="translate(18, 1) scale(0.71)">
+    <!-- Circular book shape -->
+    <path
+      d="M12 12C6.48 12 2 16.48 2 22s4.48 10 10 10 10-4.48 10-10S17.52 12 12 12z"
+      fill="none"
+      stroke="#60A5FA"
+      strokeWidth="2"
+    />
+    <!-- Book pages -->
+    <path
+      d="M8 17.5C8 17.5 10 16 12 16c2 0 4 1.5 4 1.5V27c0 0-2-1.5-4-1.5c-2 0-4 1.5-4 1.5V17.5z"
+      fill="#60A5FA"
+      className="transform -rotate-6"
+    />
+    <!-- Book spine -->
+    <path
+      d="M12 16v9.5"
+      stroke="#60A5FA"
+      strokeWidth="1.5"
+      className="transform -rotate-6"
+    />
+  </g>
+  <text x="35" y="20" fill="#FFFFFF" fontSize="32" fontWeight="bold">n</text>
+</svg>

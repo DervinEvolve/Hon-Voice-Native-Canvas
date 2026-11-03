@@ -1,0 +1,100 @@
+.custom-wallet-button {
+  background-color: #512da8;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  min-width: 140px;
+  padding: 0 16px;
+  transition: all 0.15s ease-in-out;
+  position: relative;
+}
+
+.custom-wallet-button:hover {
+  background-color: #4527a0;
+}
+
+.custom-wallet-button:active {
+  background-color: #382196;
+}
+
+.custom-wallet-button:disabled {
+  background-color: #cccccc;
+  color: #999999;
+  cursor: not-allowed;
+}
+
+.custom-wallet-button.connected {
+  background-color: #28a745;
+}
+
+.custom-wallet-button.connected:hover {
+  background-color: #218838;
+}
+
+.custom-wallet-button.loading {
+  cursor: wait;
+}
+
+.custom-wallet-button .spinner {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 2px solid white;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  animation: spin 1s linear infinite;
+}
+
+.custom-wallet-button .ml-1 {
+  margin-left: 6px;
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.wallet-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.wallet-connection-help {
+  font-size: 12px;
+  color: #f5f5f5;
+  opacity: 0.7;
+  max-width: 220px;
+  text-align: center;
+  animation: fade-in 0.3s ease-in-out;
+}
+
+.wallet-connected-container {
+  position: relative;
+}
+
+.wallet-connected-container .absolute {
+  animation: fade-in-dropdown 0.2s ease-out;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+@keyframes fade-in-dropdown {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 0.7; }
+} 

@@ -1,0 +1,222 @@
+[
+  {
+    "path": "public/assets/3d/characters/humanoid/Dancing_NPC.glb",
+    "sha256": "7353c13bc3211edc4c59414fbad57c702d91559c7f0a5c38f127253d45a5a7ea",
+    "size": 13798412
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/Driver_character.glb",
+    "sha256": "a5c86c9c67dcda06ee587cd17018dcf69a7610f74aecace40f5d9dcfd5a0bcac",
+    "size": 47662652
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/Elf_character.glb",
+    "sha256": "59ab82c1c1e3176a9a1111b0aed12b8477deaa5db0f0a0a10497b79ccdb66f9c",
+    "size": 26513464
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/boy_NPC.glb",
+    "sha256": "45d1daf2fc3eab233c5a58dd5f82722b4b0dcd1f01e67ca7d4a70b535ef9f2e7",
+    "size": 2785396
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/cyberpunk_character.glb",
+    "sha256": "d2f3e41be8ee3d026270d6ce184252e7e6ed6bb080ac10510b273d1f1f00fe1d",
+    "size": 78584864
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/desert_soldier_character.glb",
+    "sha256": "9b17d5095c4af4364c0625f7f06acb318f8ce05725d3cd7bed8fd83b0496e5df",
+    "size": 51367192
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/girl_NPC.glb",
+    "sha256": "096d34af990abe86f9f9539fb9dbb24164b48eca478aaa93e5c8b62551a2065c",
+    "size": 2335420
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/mage_character.glb",
+    "sha256": "522b66be58af69862b6d6df9bbc58cefea585f78f3093a6abd582cf9b50a9921",
+    "size": 49221008
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/ninja_NPC.glb",
+    "sha256": "dcd519738a1448cc5558aec1f97b6fb448176b9f907cc0d277e287a60029e7d6",
+    "size": 53145088
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/samurai_character.glb",
+    "sha256": "df54d52facf411e419627d4bd0d301f099726a597b7e76dcd4997a1caa559000",
+    "size": 139580272
+  },
+  {
+    "path": "public/assets/3d/characters/humanoid/security_guard_NPC.glb",
+    "sha256": "66c38d108409438851f6f7051cf3e29957dfa93d43123a9228645449956e47b7",
+    "size": 3534572
+  },
+  {
+    "path": "public/assets/3d/characters/robots/robot_character.glb",
+    "sha256": "9f663252d84f05d53c994ffaae56eb091ef1ff7be632d8433a9da1ed45d1a9a0",
+    "size": 40701212
+  },
+  {
+    "path": "public/assets/3d/environment/buildings/building.glb",
+    "sha256": "0f44c9795f508c4082a9e9c1b8a5bf5ceefeab3521db269d4f71b8f4b922efcb",
+    "size": 141862352
+  },
+  {
+    "path": "public/assets/3d/environment/buildings/city_apartment_building.glb",
+    "sha256": "71d8cc05bd4cf40e538087db77f3a6e0e67da2e6d28deb476174e15867d1e833",
+    "size": 33576460
+  },
+  {
+    "path": "public/assets/3d/environment/buildings/city_building.glb",
+    "sha256": "13977e244c757a79678f56507f30908e43fdfa56c1ea5ed6e65230bc0ce3014e",
+    "size": 852140
+  },
+  {
+    "path": "public/assets/3d/environment/buildings/one_building.glb",
+    "sha256": "f48f1cdc599044411f30a13cfcf8d5135452a7858d7a70fe2ae70d91a295379e",
+    "size": 761372
+  },
+  {
+    "path": "public/assets/3d/environment/props/traffic_light.glb",
+    "sha256": "a5e739d1d93b1941426759331afe53f5ea5537dd18c5db64e6073112308f74e0",
+    "size": 4951548
+  },
+  {
+    "path": "public/assets/3d/environment/scenes/city.glb",
+    "sha256": "589e8084508464b8d00dbb233c7d2874e59e6ccd5bc99bd88f75c23d9bf63e1d",
+    "size": 64046692
+  },
+  {
+    "path": "public/assets/3d/environment/scenes/city_block.glb",
+    "sha256": "9289894c493e1cd5c6a3c799d6ca17b66bd7db8a1bbc32f712efd23ed83ea039",
+    "size": 14383396
+  },
+  {
+    "path": "public/assets/3d/environment/scenes/city_street.glb",
+    "sha256": "9f7e0fa41b00d27c4d735a5214d5b11f43276498c9c0351e886578fc45cc8b9a",
+    "size": 35521164
+  },
+  {
+    "path": "public/assets/3d/environment/scenes/postwar_city_FPS.glb",
+    "sha256": "f60696db9ca9eb372502408231d35c26b1e6aac879061172dd8405b9697e3515",
+    "size": 116133560
+  },
+  {
+    "path": "public/assets/3d/environment/scenes/times_square_block.glb",
+    "sha256": "7b3965fc54e4d42bbce988d1147f7737a695e37714af26ea38d4dbc6f390c6e9",
+    "size": 164191716
+  },
+  {
+    "path": "public/assets/3d/environment/terrain/desert_ruins.glb",
+    "sha256": "ac81af05b976e6aaa9b0f5d725184af247fa25a3f43f6b008e9015fb710fc1f2",
+    "size": 75210652
+  },
+  {
+    "path": "public/assets/3d/environment/terrain/mountainous_desert.glb",
+    "sha256": "e7653b3b31e4352874d3b0ae34a3f30e0b1c5302ca5a1771b0041ab0530be5d5",
+    "size": 34139036
+  },
+  {
+    "path": "public/assets/3d/environment/trees/Big_tree.glb",
+    "sha256": "20344d055bfbd06fc80c1bcd505c580310a2473146108f4ae6b761535fec9e40",
+    "size": 58095652
+  },
+  {
+    "path": "public/assets/3d/environment/trees/big_tree_2.glb",
+    "sha256": "0c29fba02d555bf1a12b9ace35ae6ca60608ef4023be67ebe43a206b29ff578e",
+    "size": 84716276
+  },
+  {
+    "path": "public/assets/3d/environment/trees/mango_tree.glb",
+    "sha256": "264cb4b3c04e27fd53fc9a0bd18e9c74848c08de4732f41889c2ee0330e92275",
+    "size": 16309300
+  },
+  {
+    "path": "public/assets/3d/environment/trees/one_tree.glb",
+    "sha256": "cdb1cc1f6be6fd4d552c3ac5984ea39b8bf2f4080e83c18f587571261d4a186c",
+    "size": 74533968
+  },
+  {
+    "path": "public/assets/3d/environment/trees/three_trees.glb",
+    "sha256": "ee7d04f2884abc72e3fddcebeb12105d0ae164c503c178b61f4a59f7c4db36a2",
+    "size": 8912220
+  },
+  {
+    "path": "public/assets/3d/environment/trees/tree_house.glb",
+    "sha256": "910364f542065bab3ccf2e87dbc32456d9946f04f9a7b53bdf9de47ed21ac3a5",
+    "size": 8089208
+  },
+  {
+    "path": "public/assets/3d/environment/vegetation/simple_grass_chunks.glb",
+    "sha256": "142c62555225247dd840c43ced818a6fd214b75a21a9a3f3e9214cfb2f9c8aa0",
+    "size": 144625908
+  },
+  {
+    "path": "public/assets/3d/vehicles/aircraft/Plane.glb",
+    "sha256": "7e8a546c8bcddd30b81b3f56700f1380c2579d6a7a305ee46120e3f45023c454",
+    "size": 1561584
+  },
+  {
+    "path": "public/assets/3d/vehicles/aircraft/rigged_plane.glb",
+    "sha256": "ee6b5fe91512c85a585c4f7c41472839f800da73169cb81a556ce07568de1b85",
+    "size": 1474576
+  },
+  {
+    "path": "public/assets/3d/vehicles/cars/car.glb",
+    "sha256": "7d60715df923dcea28742a1eec8f239f26092f817535e90cc3c543a517ac7e36",
+    "size": 1576764
+  },
+  {
+    "path": "public/assets/3d/vehicles/cars/car_2.glb",
+    "sha256": "acc4133c050d8058e204bb3c2e2d0e2ab5be8154474de49464138a736d714551",
+    "size": 2879728
+  },
+  {
+    "path": "public/assets/3d/vehicles/cars/car_3.glb",
+    "sha256": "bec42d92e2bd179e309f01519341204aadc5ff0d5cc15640fd6ad1825a5116e6",
+    "size": 46974856
+  },
+  {
+    "path": "public/assets/3d/vehicles/cars/rigged_sportscar.glb",
+    "sha256": "f97ab195fdbcc038fa69172f7f65202de26cdd8059dd093171a86d4e15fd8aef",
+    "size": 5226808
+  },
+  {
+    "path": "public/assets/3d/vehicles/cars/rigged_sportscar_2.glb",
+    "sha256": "e5fae61211eddc17c32f674a0f189a351554bbf3940a48723a30cc22c1d8b0bb",
+    "size": 174093584
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/large_mothership.glb",
+    "sha256": "fe1f3fa3054078e7b96884acb5be611e8d718709a3c5309d8baaa30edaabfcab",
+    "size": 31020784
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/large_spaceship.glb",
+    "sha256": "abadd9f08d67946a089e69ce005314b801ab0e93ece2358620acd05fb63f25bf",
+    "size": 19822600
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/rigged_big_spaceship.glb",
+    "sha256": "1f1301726d826624e45eee10ce25fca63dffe0b611b5ab0d7a9e0e772f61d903",
+    "size": 300157716
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/small_spaceship.glb",
+    "sha256": "ffb75441b8d1e1431b8b68a3b47933c4452a18ff4e9bc50c5d304af2bc35e382",
+    "size": 17498396
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/small_spaceship_2.glb",
+    "sha256": "ec573ed0d94203e3ea6466083280b82846faf27a57a1f34cd473b3123ef1711f",
+    "size": 160603752
+  },
+  {
+    "path": "public/assets/3d/vehicles/spaceships/spaceship_with_interior.glb",
+    "sha256": "82e12439c7043d5262c5dbdfcfe24defa7281ed758074dd3d6baac9bc209013d",
+    "size": 26910704
+  }
+]

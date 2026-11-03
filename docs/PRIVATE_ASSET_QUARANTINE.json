@@ -1,0 +1,22 @@
+{
+  "excluded_from_public_candidate": [
+    "public/assets/3d/animations/AnimationLibrary_Godot.glb",
+    "public/assets/3d/characters/creatures/bird.glb",
+    "public/assets/3d/characters/robots/robot_character_2.glb",
+    "public/assets/3d/environment/props/Gun Case Weapons.glb",
+    "public/assets/3d/environment/props/Gun Case.glb",
+    "public/assets/3d/environment/vegetation/patch_of_grass.glb",
+    "public/assets/3d/fps/rigs/Fps Rig AKM.glb",
+    "public/assets/3d/fps/rigs/Fps Rig.glb",
+    "public/assets/3d/fps/rigs/Rigged Fps Arms.glb",
+    "public/assets/3d/vehicles/cars/M939 Truck.glb",
+    "public/assets/3d/weapons/ammo/7.62x39mm.glb",
+    "public/assets/3d/weapons/ammo/9x19mm.glb",
+    "public/assets/3d/weapons/explosives/C4.glb",
+    "public/assets/3d/weapons/explosives/Grenade.glb",
+    "public/assets/3d/weapons/firearms/AKM.glb",
+    "public/assets/3d/weapons/firearms/Mossberg 590A1.glb",
+    "public/assets/3d/weapons/firearms/Rigged Glock.glb",
+    "public/assets/3d/weapons/melee/Combat Knife.glb"
+  ]
+}
